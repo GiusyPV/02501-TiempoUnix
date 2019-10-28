@@ -24,10 +24,10 @@ import java.util.Date;
 public class Main {
 
     public static void main(String[] args) {
-        
+
         long tiempo = new Date().getTime();
-        
+
         System.out.printf("%s%d%n", "Tiempo UNIX .........: ", tiempo);
-        
+
     }
 }
